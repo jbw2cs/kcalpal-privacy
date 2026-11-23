@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How KcalPal handles food logs, photos, personal goals, AI processing, and privacy requests.">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>Privacy notice · KcalPal</title>
+  <link rel="icon" href="icon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to privacy notice</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="KcalPal privacy home"><img src="icon.png" alt="" width="36" height="36">KcalPal</a>
+    <nav class="site-nav" aria-label="Site navigation">
+      <a href="./" aria-current="page">Privacy</a>
+      <a href="health-privacy.html">Consumer health privacy</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <div class="page-layout">
+    <nav class="toc" aria-label="On this page">
+      <p class="eyebrow">On this page</p>
+      <a href="#overview">Overview</a>
+      <a href="#information">Information we use</a>
+      <a href="#purposes">How we use it</a>
+      <a href="#sharing">Who receives it</a>
+      <a href="#choices">Your choices</a>
+      <a href="#retention">How long we keep it</a>
+      <a href="#providers">Provider and device copies</a>
+      <a href="#rights">Requests and rights</a>
+      <a href="#website">This website</a>
+      <a href="#changes">Changes to this notice</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <main id="main" class="content">
+      <p class="eyebrow">KcalPal · United States adult beta</p>
+      <h1>Privacy notice</h1>
+      <p class="lede">What we collect, why we use it, and the choices you have.</p>
+      <p class="meta">Effective and last updated November 23, 2026 · Version 2026-11-23.1</p>
+      <aside class="notice" aria-labelledby="release-status">
+        <h2 id="release-status">The updated beta is not open yet</h2>
+        <p>This notice describes the current prototype and identifies the privacy controls prepared for the updated beta. Separate in-app sharing choices, self-service account deletion, and scheduled data cleanup have not yet been activated on the live service. If you use an earlier test build, <a href="#contact">contact us</a> for access, withdrawal, or deletion help. We will update this notice and announce cleanup activation before opening the updated beta.</p>
+      </aside>
+
+      <section id="overview">
+        <h2>Who we are</h2>
+        <p>James White and Jonathan Zhou jointly operate KcalPal from Texas. KcalPal is a food and nutrition logging app. The beta is free and intended for invited adults aged 18 or older in the United States.</p>
+        <p>This notice covers the app, our privacy/support communications, and this website. Food, body measurements, and related inferences can be consumer health data. Our separate <a href="health-privacy.html">Consumer Health Data Privacy Notice</a> explains those practices in more detail.</p>
+        <p>KcalPal provides estimates and general nutrition information, not medical diagnosis or treatment. Please do not submit medical records or other people's personal information. If you believe a person under 18 has provided personal information, contact us so we can investigate and take appropriate action.</p>
+      </section>
+
+      <section id="information">
+        <h2>Information we use</h2>
+        <dl class="facts">
+          <div><dt>Account and access</dt><dd>Email address, account identifier, sign-in/session information, invitation status, eligibility declarations, and privacy choices. Email is used for sign-in even before you choose whether to sync food or profile data.</dd></div>
+          <div><dt>Food and conversation</dt><dd>Food and drink descriptions, amounts, meal categories, dates, chat messages, photos you submit, barcodes, saved meals, recipes, and your corrections.</dd></div>
+          <div><dt>Profile and goals</dt><dd>Information you choose to provide, such as age, height, weight, activity, the sex-related input used by the goal calculation, and calorie or macronutrient goals. Completing the questionnaire is optional.</dd></div>
+          <div><dt>Generated information</dt><dd>Nutrition estimates, suggested targets, and relevant meal-history or saved-meal context used to interpret requests such as “my usual breakfast.” These outputs can be inaccurate.</dd></div>
+          <div><dt>Operations and support</dt><dd>Request identifiers, processing status, error codes, usage and cost measurements, consent records, deletion-recovery records, and information you send for help. Service providers also process network and security information, such as IP addresses.</dd></div>
+        </dl>
+        <p>Sources include information you submit, your existing KcalPal records, calculations and AI outputs, nutrition reference services, and technical information generated while the app runs. Account data is associated with your account. We do not treat account identifiers or request records as anonymous simply because they do not contain your name.</p>
+      </section>
+
+      <section id="purposes">
+        <h2>How we use information</h2>
+        <ul>
+          <li>Authenticate accounts, manage invitations, and provide the beta.</li>
+          <li>Record food, calculate daily totals, display history, and save or retrieve meals and recipes.</li>
+          <li>Suggest targets from questionnaire answers and interpret food messages or photos when those features are used.</li>
+          <li>Synchronize permitted account data, recover interrupted requests, prevent duplicate changes, and control service usage.</li>
+          <li>Resolve support requests, investigate failures or misuse, protect accounts, and fulfill privacy or legal obligations.</li>
+        </ul>
+        <p>The questionnaire's current target calculation runs on your device; it does not need an AI request to invent calorie targets. AI food features can use relevant history or saved recipes. We do not use KcalPal data for advertising, sell personal or consumer health data, or share it for cross-context behavioral advertising.</p>
+      </section>
+
+      <section id="sharing">
+        <h2>Who receives information</h2>
+        <ul>
+          <li><strong>KcalPal operators:</strong> authorized operators can access service data to administer the beta, provide support, and investigate privacy or security issues.</li>
+          <li><strong>Supabase:</strong> provides authentication, database services, and private uploaded-photo storage for accounts and app data.</li>
+          <li><strong>OpenAI:</strong> receives messages, selected photos, and relevant food history, saved meals, or recipes needed for AI requests. Restaurant research may use OpenAI web search. Derived search terms can include information from your request.</li>
+          <li><strong>Google/Gmail:</strong> delivers sign-in codes and handles correspondence sent to our contact address. This includes recipient addresses and email contents.</li>
+          <li><strong>USDA FoodData Central and Open Food Facts:</strong> receive food search terms or scanned barcodes for reference nutrition. We do not intentionally include your account email or account identifier in those lookups. Free-form descriptions can nevertheless contain information you entered.</li>
+          <li><strong>Apple TestFlight:</strong> distributes the beta. Apple automatically collects and shares beta crash and usage information with us, and shares feedback you submit. Information may be associated with your name or invitation email. These practices are explained in <a href="https://www.apple.com/legal/privacy/data/en/test-flight/" rel="noreferrer">Apple's TestFlight privacy notice</a>.</li>
+          <li><strong>GitHub:</strong> hosts this website, as described <a href="#website">below</a>. App food logs and photos are not published on this website.</li>
+        </ul>
+        <p>We may disclose information when necessary to comply with a valid legal obligation or to protect rights and security, subject to applicable law. Our providers have their own processing obligations and retention practices. Opening a source link contacts that website and is subject to its privacy practices.</p>
+      </section>
+
+      <section id="choices">
+        <h2>Your choices</h2>
+        <p>For the updated beta, account storage and AI sharing will be separate affirmative choices. You will be able to keep AI off and use available local/demo features. Enabling AI will require account storage as well because AI processing uses account records and private uploaded photos.</p>
+        <p>The updated beta's <strong>Your data &amp; choices</strong> controls will let you withdraw either permission. Withdrawing account-storage permission also stops AI sharing. Withdrawal stops future permitted processing; it cannot recall a request already sent or erase existing data by itself. Account deletion is a separate action.</p>
+        <p>Those controls are not yet active in the live service. You can contact us now to request withdrawal or deletion. Until a withdrawal is confirmed, stop submitting new information if you do not want additional processing. Removing beta access will not remove the ability to make a privacy request.</p>
+      </section>
+
+      <section id="retention">
+        <h2>How long we keep information</h2>
+        <p><strong>Current service:</strong> automatic photo, AI-response, and usage cleanup is not yet active. Existing account records remain until removed through an available control or a verified request. The following schedules are selected for the updated beta and will begin only after activation is announced and the cleanup service is operating.</p>
+        <table class="retention-table">
+          <caption>Updated beta retention schedules</caption>
+          <thead><tr><th scope="col">Information</th><th scope="col">Selected handling</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Uploaded photos</th><td>Eligible for scheduled removal after 30 days from the latest upload or replacement. Existing uploads receive a full 30-day grace from the announced activation date. Saved nutrition and recipe text remain.</td></tr>
+            <tr><th scope="row">Temporary AI recovery responses</th><td>Completed response content expires after 30 days. Request identifiers and processing metadata remain until account deletion to prevent the same request from applying a food change twice. Saved chat and food records are separate.</td></tr>
+            <tr><th scope="row">Detailed AI usage records</th><td>90 days. These records help track account usage, service costs, and failures.</td></tr>
+            <tr><th scope="row">Daily request counters</th><td>The current UTC day plus the previous seven completed UTC days.</td></tr>
+          </tbody>
+        </table>
+        <p>Food logs, profile/target data, and saved meal or recipe text remain with the account. Removing a food entry or recipe hides it from active views but retains its stored record for synchronization until account deletion. Removing a saved meal deletes its saved-meal record, not earlier conversations or food entries referring to it. Contact us for help with a narrower erasure request.</p>
+        <p>Once the updated deletion process is active, it will remove active account records and uploaded photos, with server recovery if interrupted. Consent and invitation records are removed with the account. A minimal deletion receipt retains a random-token hash, completion status, and timestamps for recovery; after completion it contains no account identifier, email, food log, or photo. No automatic expiry is currently set for that receipt.</p>
+        <p>Verification emails and privacy/support correspondence remain in the operator mailbox until manually deleted. There is currently no fixed automatic deletion schedule for those messages. You may request removal, subject to applicable legal and security retention needs. App-account deletion does not automatically remove mailbox or recipient copies.</p>
+        <p>Scheduled cleanup, failed operations, and device connectivity can delay removal. We will monitor cleanup failures. Limited records may be retained where required or permitted by applicable law, including necessary security or legal records. No retention exception is a reason to continue using withdrawn information for unrelated purposes.</p>
+      </section>
+
+      <section id="providers">
+        <h2>Provider and device copies</h2>
+        <p><strong>OpenAI:</strong> we disable voluntary API sharing for foundation-model improvement and request that ordinary responses not be stored as retrievable application state. OpenAI may still process and retain content for abuse prevention, safety, and legal purposes. Its documented default abuse-monitoring period is up to 30 days, with exceptions and feature-specific rules. It also describes separate safety-classifier training and evaluation for some API customers. See <a href="https://developers.openai.com/api/docs/guides/your-data" rel="noreferrer">OpenAI data controls</a> and <a href="https://help.openai.com/en/articles/10306912-sharing-feedback-evaluation-and-fine-tuning-data-and-api-inputs-and-outputs-with-openai" rel="noreferrer">its sharing and safety-use explanation</a>.</p>
+        <p><strong>Supabase:</strong> our current Free plan provides one day of API/database log availability and no automatic daily database backups. This is not a one-day deletion promise for all provider security or operational records. See <a href="https://supabase.com/privacy" rel="noreferrer">Supabase's privacy policy</a>. The operators currently keep no separate manual exports or backups of real user data.</p>
+        <p><strong>Email:</strong> Gmail keeps sent-message copies. Google's deletion and backup processes and recipients' own copies are separate from KcalPal account deletion. See <a href="https://policies.google.com/privacy" rel="noreferrer">Google's privacy policy</a> and <a href="https://policies.google.com/technologies/retention" rel="noreferrer">retention explanation</a>.</p>
+        <p><strong>Your devices:</strong> account snapshots can contain offline edits and remain in the app sandbox after sign-out, separated by account. Some local files can be included in device backups. Uploaded-photo caches in the updated app are excluded from new device backups; existing backups are not remotely erased. Once photo expiry is enabled, existing local photos get a separate 30-day grace when that device first learns the policy. Unsent or queued attachments are protected from routine expiry. Scheduled photo expiry on offline devices can run only when they later open the app and learn the relevant policy.</p>
+        <p>Signing out is not account deletion. In the updated app, confirmed account deletion clears the account's local files on the device processing completion. Other devices may retain local copies even after reconnecting; account deletion does not remotely wipe those devices. You can remove the app and its local data on them; existing backups are separate. No app control can immediately erase every independent provider record or old backup. Provider processing may occur in the United States or other countries where the providers operate.</p>
+      </section>
+
+      <section id="rights">
+        <h2>Requests and rights</h2>
+        <p>You can ask us to access or provide a copy of your information, correct it, delete it, withdraw permission, or explain its use and disclosure. Additional rights depend on the laws that apply to you, including rights concerning consumer health data.</p>
+        <p>Email the privacy contact below, preferably from the address associated with your account. Tell us what you want to do; do not include passwords, verification codes, deletion-recovery tokens, government ID, or unnecessary health details. We will use a proportionate verification process before disclosing or changing account data and respond within the time required by applicable law.</p>
+        <p>If we decline a request, we will explain the reason and how to appeal. You can send an appeal to the same address with the subject “Privacy appeal.” You may also contact your state attorney general or other relevant regulator. We will not retaliate against you for exercising an applicable privacy right; features that need withdrawn data may no longer work.</p>
+      </section>
+
+      <section id="website">
+        <h2>This website</h2>
+        <p>GitHub Pages hosts this notice. GitHub logs visitor IP addresses for security, including for visitors who are not signed in. Its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noreferrer">privacy statement</a> applies to that processing.</p>
+        <p>We do not add analytics, advertising trackers, forms, or nonessential cookies to this website. It does not change its behavior in response to a browser's Do Not Track signal. Following an external link or emailing us uses the destination service's own privacy practices.</p>
+      </section>
+
+      <section id="changes">
+        <h2>Changes to this notice</h2>
+        <p>We will post changes here with an updated date and version. Before activating new beta privacy controls or cleanup schedules, we will update the release status and communicate the applicable start date. We will seek renewed permission when required for a material change in how information is used or shared.</p>
+      </section>
+
+      <section id="contact" class="contact-card">
+        <p class="eyebrow">Privacy and support</p>
+        <h2>Contact KcalPal</h2>
+        <p>James White and Jonathan Zhou<br>Texas, United States</p>
+        <p><a href="mailto:jbw2cs@gmail.com?subject=KcalPal%20privacy%20request">jbw2cs@gmail.com</a></p>
+        <p class="small">For account requests, use your sign-in email when possible. Never send passwords or verification codes.</p>
+      </section>
+    </main>
+  </div>
+  <footer class="site-footer"><span>© 2026 KcalPal</span><a href="health-privacy.html">Consumer Health Data Privacy Notice</a><a href="#main">Back to top</a></footer>
+</body>
+</html>
