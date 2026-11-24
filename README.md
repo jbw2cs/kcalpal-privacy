@@ -10,4 +10,4 @@ GitHub Pages serves the root of `main`. No build, JavaScript, analytics, externa
 
 Keep both notices consistent with actual app and service behavior. Update the effective/version information for material changes. The public release-status statements must remain accurate; publishing a notice does not itself activate the upcoming beta's controls.
 
-Current notice version: `2026-11-23.1`.
+Current notice version: `2026-11-23.2`.
